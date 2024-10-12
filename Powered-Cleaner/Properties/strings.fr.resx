@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="about" xml:space="preserve">
+    <value>A PROPOS</value>
+  </data>
+  <data name="advanced" xml:space="preserve">
+    <value>AVANCÉ</value>
+  </data>
+  <data name="analyze" xml:space="preserve">
+    <value>Analyser</value>
+  </data>
+  <data name="applications" xml:space="preserve">
+    <value>APPLICATIONS</value>
+  </data>
+  <data name="checkForUpdates" xml:space="preserve">
+    <value>Rechercher une mise à jour</value>
+  </data>
+  <data name="chkSystem" xml:space="preserve">
+    <value>Système</value>
+  </data>
+  <data name="chkWinExplorer" xml:space="preserve">
+    <value>Explorateur Windows</value>
+  </data>
+  <data name="clean" xml:space="preserve">
+    <value>Nettoyer</value>
+  </data>
+  <data name="cleanRecycleBin" xml:space="preserve">
+    <value>Vider la corbeille</value>
+  </data>
+  <data name="clipboard" xml:space="preserve">
+    <value>Presse-papiers</value>
+  </data>
+  <data name="ClosePcClean" xml:space="preserve">
+    <value>Fermer le programme après le nettoyage</value>
+  </data>
+  <data name="dashboard" xml:space="preserve">
+    <value>TABLEAU DE BORD</value>
+  </data>
+  <data name="DelOnlyWinTemp24" xml:space="preserve">
+    <value>Effacer uniquement les fichiers temporaires de Windows datant de plus de 24 heures</value>
+  </data>
+  <data name="winUpdate" xml:space="preserve">
+    <value>Windows Update</value>
+  </data>
+  <data name="downloadHistory" xml:space="preserve">
+    <value>Historique des téléchargements</value>
+  </data>
+  <data name="history" xml:space="preserve">
+    <value>Historique</value>
+  </data>
+  <data name="internetCache" xml:space="preserve">
+    <value>Cache</value>
+  </data>
+  <data name="mBoxWUpdateBefore" xml:space="preserve">
+    <value>Avant de lancer l'analyse, assurez-vous qu'il n'y ai pas des mises à jour en cours</value>
+  </data>
+  <data name="mBoxWUpdateQuestion" xml:space="preserve">
+    <value>Voulez-vous vérifier maintenant ?</value>
+  </data>
+  <data name="memoryDumps" xml:space="preserve">
+    <value>Fichiers de vidage mémoire</value>
+  </data>
+  <data name="minSysTray" xml:space="preserve">
+    <value>Réduire dans la zone de notification</value>
+  </data>
+  <data name="openPc" xml:space="preserve">
+    <value>Ouvrir Powered Cleaner...</value>
+  </data>
+  <data name="options" xml:space="preserve">
+    <value>OPTIONS</value>
+  </data>
+  <data name="quit" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="runPcStart" xml:space="preserve">
+    <value>Lancer Powered Cleaner au démarrage de Windows</value>
+  </data>
+  <data name="settings" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="storage" xml:space="preserve">
+    <value>STOCKAGE</value>
+  </data>
+  <data name="system" xml:space="preserve">
+    <value>SYSTÈME</value>
+  </data>
+  <data name="temporaryFiles" xml:space="preserve">
+    <value>Fichiers temporaires</value>
+  </data>
+  <data name="viewAllFiles" xml:space="preserve">
+    <value>Voir tous les fichiers</value>
+  </data>
+  <data name="webBrowser" xml:space="preserve">
+    <value>NAVIGATEUR WEB</value>
+  </data>
+  <data name="winErrorReporting" xml:space="preserve">
+    <value>Rapport d'erreur Windows</value>
+  </data>
+  <data name="winExplorer" xml:space="preserve">
+    <value>EXPLORATEUR WINDOWS</value>
+  </data>
+  <data name="winLogFiles" xml:space="preserve">
+    <value>Fichiers journal de Windows</value>
+  </data>
+  <data name="openContainingFolder" xml:space="preserve">
+    <value>Ouvrir le dossier contenant ce fichier</value>
+  </data>
+  <data name="mBoxLatestVersion" xml:space="preserve">
+    <value>Félicitations, vous disposez de la dernière version !</value>
+  </data>
+  <data name="mBoxProcessBefore" xml:space="preserve">
+    <value>doit être fermé afin de pouvoir nettoyer le cache</value>
+  </data>
+  <data name="mBoxProcessQuestion" xml:space="preserve">
+    <value>Voulez-vous que Powered Cleaner ferme</value>
+  </data>
+  <data name="mBoxUpdateReadyBefore" xml:space="preserve">
+    <value>Une nouvelle mise à jour est disponible !</value>
+  </data>
+  <data name="mBoxUpdateReadyQuestion" xml:space="preserve">
+    <value>Voulez-vous l'obtenir maintenant ?</value>
+  </data>
+  <data name="mBoxVerifyConn" xml:space="preserve">
+    <value>Vérifiez que vous êtes bien connecté à Internet</value>
+  </data>
+  <data name="recentDocs" xml:space="preserve">
+    <value>Documents récents</value>
+  </data>
+  <data name="thumbnailCache" xml:space="preserve">
+    <value>Cache des vignettes</value>
+  </data>
+  <data name="WUpdateHist" xml:space="preserve">
+    <value>Historique des mises à jour</value>
+  </data>
+  <data name="audioDevice" xml:space="preserve">
+    <value>Périphérique audio :</value>
+  </data>
+  <data name="biosVersion" xml:space="preserve">
+    <value>Version du BIOS :</value>
+  </data>
+  <data name="hdd" xml:space="preserve">
+    <value>Disque dur :</value>
+  </data>
+  <data name="manufacturer" xml:space="preserve">
+    <value>Constructeur :</value>
+  </data>
+  <data name="memory" xml:space="preserve">
+    <value>Memoire (RAM) :</value>
+  </data>
+  <data name="model" xml:space="preserve">
+    <value>Modèle :</value>
+  </data>
+  <data name="processor" xml:space="preserve">
+    <value>Processeur :</value>
+  </data>
+  <data name="systemInfo" xml:space="preserve">
+    <value>Informations sytème</value>
+  </data>
+  <data name="systemName" xml:space="preserve">
+    <value>Nom de l'appareil :</value>
+  </data>
+  <data name="systemType" xml:space="preserve">
+    <value>Type du système :</value>
+  </data>
+  <data name="videoController" xml:space="preserve">
+    <value>Cate vidéo :</value>
+  </data>
+  <data name="winVersion" xml:space="preserve">
+    <value>Version de Windows :</value>
+  </data>
+  <data name="analysisCompleted" xml:space="preserve">
+    <value>Analyse terminée</value>
+  </data>
+  <data name="cleaningCompleted" xml:space="preserve">
+    <value>Nettoyage terminé</value>
+  </data>
+  <data name="mbToRemove" xml:space="preserve">
+    <value>Mo à supprimer (taille approximative)</value>
+  </data>
+  <data name="sizeCleaned" xml:space="preserve">
+    <value>Mo nettoyé (taille approximative)</value>
+  </data>
+  <data name="downloadedInstall" xml:space="preserve">
+    <value>Fichiers d'installation</value>
+  </data>
+</root>
